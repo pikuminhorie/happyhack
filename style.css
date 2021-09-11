@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+}
+
+.header{
+    width: 100%;
+    height: 1080px;
+}
+
+/* .bg-switcher{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.bg-slider {
+    width: 100%;
+    height: 100vh;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .bg{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align:center;
+    }
+  
+
+.logo{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+
+nav li{
+list-style-type: none;
+float: left;
+margin-top: 2px;
+}
+
+nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 14px 16px 0px;
+    transition:0.3s;
+}
+
+nav:hover a{
+    color: blue;
+}
+
+/* ここまで上の方1 */
+
+.main h2{
+    color:#3E5DDB;
+    text-align: center;
+    font-size: 55px;
+    padding: 50px;
+}
+
+/*Introduction枠*/
+.Introduction{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Introduction img{
+    float: left;
+}
+
+.explain a{
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    /* ボタン仮の色 */
+    background-color: #3E5DDB; 
+}
+.explain:hover a{
+
+}
+
+
+.explain{
+    text-align: center;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.explain p{
+    text-align: left;
+}
+
+#explain2 p{
+    width: 400px;
+}
+
+#explain2 p,
+#explain2 a{
+   float: left;
+}
+
+#explain2 a{
+    background-color: #FFBF01;
+}
+
+
+/*Courses枠*/
+.Courses{
+    background-color: antiquewhite;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.box{
+    text-align: center;
+    display: inline-block;
+    color: #3E5DDB;
+}
+.box p{
+    /* padding-top: 150px;
+    padding-bottom:100px ; */
+    background-color: #FFFFFF;
+    /* border-radius: 12px; */
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    /* ボタン仮の色 */
+    background-color: #3E5DDB; 
+}
+
+#box1 a{
+ background-color: #F16529;
+}
+#box2 a{
+    background-color: #29A9DF;
+}
+#box3 a{
+    background-color: #333333;
+}
+#box4 a{
+    background-color: #FF5252;
+}
+#box5 a{
+    background-color: #FED700;
+}
+#box6 a{
+    background-color: #FE7536;
+}
+#box7 a{
+background-color: #73CEDD;
+}
+
+/*Images枠*/
+
+
+/*Access枠*/
+.Access{
+    text-align: center;
+    padding: 50px;
+}
+/*footer枠*/
+footer{
+    color: #3E5DDB;
+    text-align: center;
+    padding: 20px;
+}
