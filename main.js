@@ -1,18 +1,3 @@
-
-// $(window).load(function(){
-// $('.bg-switcher').bgSwitcher({
-//     // images:['images/background1.jpg', 'images/background2.jpg', 'images/background3.jpg', 'images/background4.jpg', 'images/background5.jpg'],
-//     images: ['images/background1.jpg', 'images/background2.jpg', 'images/background3.jpg', 'images/background4.jpg', 'images/background5.jpg'],
-//     intarval: 4000, //背景画像を切り替える間隔を指定（3000=3s
-//     loop:true,
-//     shuffle:false,
-//     effect:"fade",
-//     duration: 2000,
-//     easing:"swing"
-// });
-// });
-
-
 //bgslider試し サイト↓
 //https://www.progstudy-trace.com/entry/jquerybgswitcher/
 jQuery(function($) {
