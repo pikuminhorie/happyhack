@@ -132,8 +132,19 @@ nav:hover a{
 
 
 /*Courses枠*/
-.Courses{
-    background-color: antiquewhite;
+#particles-js{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D6E6F9;
+   
+   }
+
+   .Courses{
+
+   }
+
+.all-box{
+    /* background-color: antiquewhite; */
     width: 1000px;
     margin: 0 auto;
 }
