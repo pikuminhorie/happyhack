@@ -89,21 +89,31 @@ nav a:hover{
     padding: 50px;
 }
 
+#explain1 img{
+    margin-right:50px;
+}
+
+#explain2 img{
+    margin-left:50px;
+}
+
 .explain p{
     text-align: left;
 }
 
-#explain2 p{
-    width: 400px;
+#explain1 p{
+    padding-bottom: 50px;
 }
 
-#explain2 p,
-#explain2 a{
-   float: left;
+#explain2 a, #explain2 p{
+    width: 400px;
+    float: left;
 }
 
 #explain2 a{
     background-color: #FFBF01;
+    width: 100px;
+    margin-left:100px ;
 }
 
 
