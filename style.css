@@ -8,6 +8,8 @@ body{
 }
 
 
+
+
 nav{
     overflow: hidden;
     position: absolute;
@@ -119,19 +121,19 @@ nav a:hover{
 
 /*Courses枠*/
 #particles-js{
-    height: 800px;
+    height: 1000px;
     width: 100vw;
     background-color: #D6E6F9;
    }
 
-   .Courses{
-
+   .box{
+       background-color: #fff;
    }
 
 .all-box{
     /* background-color: antiquewhite; */
     text-align: center;
-    width: 900px;
+    width:1200px;
     margin: 0 auto;
 }
 
@@ -139,12 +141,12 @@ nav a:hover{
 .box{
     text-align: center;
     display: inline-block;
-    color: #3E5DDB;
-    /* background-color: #FFFFFF; */
      border-radius: 12px;
      padding-bottom:50px ; 
-     padding-right: 20px;
-     padding-left: 20px;
+     padding-right: 40px;
+     padding-left: 40px;
+     margin: 20px;
+     background-color: #fff;
 }
 
 .box p{
@@ -187,6 +189,34 @@ nav a:hover{
 background-color: #73CEDD;
 }
 
+#box1{
+    padding-top: 40px;
+}
+
+#box2{
+    padding-top: 26px;
+}
+
+#box3{
+    padding-top: 80px;
+}
+
+#box4{
+    padding-top: 80px;
+}
+
+#box5{
+    padding-top: 40px;
+}
+
+#box6{
+    padding-top: 90px;
+}
+
+#box7{
+    padding-top: 80px;
+}
+
 /*Images枠*/
 
 .slider{
@@ -214,3 +244,6 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+
+
