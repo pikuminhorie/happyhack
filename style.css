@@ -78,8 +78,8 @@ nav a:hover{
     /* ボタン仮の色 */
     background-color: #3E5DDB; 
 }
-.explain:hover a{
-
+.explain a:hover {
+    box-shadow: 0 0 8px gray;
 }
 
 
@@ -109,10 +109,9 @@ nav a:hover{
 
 /*Courses枠*/
 #particles-js{
-    height: 100vh;
+    height: 800px;
     width: 100vw;
     background-color: #D6E6F9;
-   
    }
 
    .Courses{
@@ -121,7 +120,8 @@ nav a:hover{
 
 .all-box{
     /* background-color: antiquewhite; */
-    width: 1000px;
+    text-align: center;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -130,26 +130,19 @@ nav a:hover{
     text-align: center;
     display: inline-block;
     color: #3E5DDB;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
      border-radius: 12px;
      padding-bottom:50px ; 
+     padding-right: 20px;
+     padding-left: 20px;
 }
 
 .box p{
-    /* padding-top: 150px;
-    padding-bottom:100px ; */
-    background-color: #FFFFFF;
+  padding: 30px;
 }
-
-/* #box1{
-    padding:50px;
-    background-color:#FFFFFF ;
-}
-#box2{
-    padding: 40px;
-} */
 
 .box a{
+    position: relative;
     text-decoration: none;
     font-size: 10px;
     padding: 10px 25px;
@@ -157,6 +150,9 @@ nav a:hover{
     border-radius: 10px;
     /* ボタン仮の色 */
     background-color: #3E5DDB; 
+}
+.box a:hover{
+    box-shadow: 0 0 8px gray;
 }
 
 #box1 a{
