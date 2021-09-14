@@ -131,7 +131,6 @@ nav a:hover{
    }
 
 .all-box{
-    /* background-color: antiquewhite; */
     text-align: center;
     width:1200px;
     margin: 0 auto;
@@ -141,12 +140,38 @@ nav a:hover{
 .box{
     text-align: center;
     display: inline-block;
+    flex-direction: row;
      border-radius: 12px;
-     padding-bottom:50px ; 
-     padding-right: 40px;
-     padding-left: 40px;
-     margin: 20px;
+     margin: 30px 10px;
+     width: 230px;
+     height: 350px;
      background-color: #fff;
+}
+
+.box a, .box p{
+    margin-top:180px;
+}
+
+#box1{
+    background: #fff url(images/html.png) center 50px no-repeat;
+}
+#box2{
+    background: #fff url(images/css.png) center 50px no-repeat;
+}
+#box3{
+    background: #fff url(/images/unity.png) center 80px no-repeat;
+}
+#box4{
+    background: #fff url(/images/ruby.png) center 80px no-repeat;
+}
+#box5{
+    background: #fff url(images/js.png) center 50px no-repeat;
+}
+#box6{
+    background: #fff url(images/swift.png) center 50px no-repeat;
+}
+#box7{
+    background: #fff url(images/go.png) center 50px no-repeat;
 }
 
 .box p{
@@ -187,34 +212,6 @@ nav a:hover{
 }
 #box7 a{
 background-color: #73CEDD;
-}
-
-#box1{
-    padding-top: 40px;
-}
-
-#box2{
-    padding-top: 26px;
-}
-
-#box3{
-    padding-top: 80px;
-}
-
-#box4{
-    padding-top: 80px;
-}
-
-#box5{
-    padding-top: 40px;
-}
-
-#box6{
-    padding-top: 90px;
-}
-
-#box7{
-    padding-top: 80px;
 }
 
 /*Images枠*/
