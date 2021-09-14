@@ -264,3 +264,56 @@ footer{
     0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
     100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
    }
+
+
+   /* ここからスマホ用のスタイル */
+   @media all and (max-width:480px){
+
+    nav{
+        display: none;
+    }
+
+    .header img{
+        width: 200px;
+    }
+    .header p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .main h2{
+        font-size: 30px;
+    }
+/*Introductionレスポンシブ*/
+.main{
+    width: 95%;
+}
+
+.explain img{
+    width: 95%;
+}
+.explain p{
+    font-size: 15px;
+}
+.explain{
+    width: 270px;
+}
+/* courses */
+.all-box{
+    /* text-align: center; */
+    width:100vw;
+}
+.box{
+    width: 60%;
+    height: 280px;
+    transform: scale(0.5);
+}
+.box p,.box a{
+    margin-top: 140px;
+}
+iframe{
+    width: 90vw;
+    height: 90vw;
+}
+
+   }
