@@ -131,9 +131,9 @@ nav a:hover{
    }
 
 .all-box{
-    text-align: center;
-    width:1200px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -268,7 +268,6 @@ footer{
 
    /* ここからスマホ用のスタイル */
    @media all and (max-width:480px){
-
     nav{
         display: none;
     }
@@ -299,21 +298,33 @@ footer{
     width: 270px;
 }
 /* courses */
+#particles-js{
+    height: 180vh;
+}
 .all-box{
-    /* text-align: center; */
     width:100vw;
 }
 .box{
-    width: 60%;
-    height: 280px;
-    transform: scale(0.5);
+    flex-wrap: wrap;
+    width: 41%;
+    height: 270px;
+    /* transform: scale(0.5); */
+}
+.box p{
+    font-size: 11px;
 }
 .box p,.box a{
     margin-top: 140px;
 }
+
+.Access{
+    margin: 0;
+    padding: 0;
+}
+}
 iframe{
-    width: 90vw;
-    height: 90vw;
+    width: 100vw;
+    height: 300px;
 }
 
-   }
+  
