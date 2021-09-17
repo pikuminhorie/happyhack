@@ -299,7 +299,7 @@ footer{
 }
 /* courses */
 #particles-js{
-    height: 180vh;
+    height: 140vh;
 }
 .all-box{
     width:100vw;
@@ -307,14 +307,44 @@ footer{
 .box{
     flex-wrap: wrap;
     width: 41%;
-    height: 270px;
+    height: 180px;
     /* transform: scale(0.5); */
+}
+#box1{
+    background: #fff url(images/html.png) center 20px no-repeat;
+    background-size: 40%;
+}
+#box2{
+    background: #fff url(images/css.png) center 20px no-repeat;
+    background-size: 40%;
+}
+#box3{
+    background: #fff url(/images/unity.png) center 50px no-repeat;
+    background-size: 40%;
+}
+#box4{
+    background: #fff url(/images/ruby.png) center 50px no-repeat;
+    background-size: 40%;
+}
+#box5{
+    background: #fff url(images/js.png) center 20px no-repeat;
+    background-size: 40%;
+}
+#box6{
+    background: #fff url(images/swift.png) center 10px no-repeat;
+    background-size: 40%;
+}
+#box7{
+    background: #fff url(images/go.png) center 10px no-repeat;
+    background-size: 40%;
 }
 .box p{
     font-size: 11px;
+    margin-top: 80px;
+    padding-bottom: 0px;
 }
-.box p,.box a{
-    margin-top: 140px;
+.box a{
+    margin-top: 0px;
 }
 
 .Access{
