@@ -290,6 +290,9 @@ footer{
     width: 95%;
 }
 
+.Introduction{
+    width: 100%;
+}
 .explain img{
     width: 95%;
 }
@@ -301,7 +304,7 @@ footer{
 }
 /* courses */
 #particles-js{
-    height: 140vh;
+    height: 140%;
 }
 .all-box{
     width:100vw;
@@ -313,19 +316,19 @@ footer{
     /* transform: scale(0.5); */
 }
 #box1{
-    background: #fff url(images/html.png) center 20px no-repeat;
+    background: #fff url(images/html.png) center 15px no-repeat;
     background-size: 40%;
 }
 #box2{
-    background: #fff url(images/css.png) center 20px no-repeat;
+    background: #fff url(images/css.png) center 15px no-repeat;
     background-size: 40%;
 }
 #box3{
-    background: #fff url(/images/unity.png) center 50px no-repeat;
+    background: #fff url(/images/unity.png) center 30px no-repeat;
     background-size: 40%;
 }
 #box4{
-    background: #fff url(/images/ruby.png) center 50px no-repeat;
+    background: #fff url(/images/ruby.png) center 30px no-repeat;
     background-size: 40%;
 }
 #box5{
@@ -333,17 +336,17 @@ footer{
     background-size: 40%;
 }
 #box6{
-    background: #fff url(images/swift.png) center 10px no-repeat;
+    background: #fff url(images/swift.png) center 30px no-repeat;
     background-size: 40%;
 }
 #box7{
-    background: #fff url(images/go.png) center 10px no-repeat;
+    background: #fff url(images/go.png) center 30px no-repeat;
     background-size: 40%;
 }
 .box p{
     font-size: 11px;
     margin-top: 80px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 .box a{
     margin-top: 0px;
@@ -354,13 +357,8 @@ footer{
     padding: 0;
 }
 iframe{
-    /* width: 100vw;
-    height: 300px; */
-    position: absolute;
-left: 0;
-top: 0;
-height: 100%;
-width: 100%;
+    width: 100vw;
+    height: 300px;
 }
 }
 
